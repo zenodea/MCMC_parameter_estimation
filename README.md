@@ -8,6 +8,7 @@ A slightly modified version of the epidemiological SIR model is utilised, the SI
 We can then utilise this information to do parameter estimation to obtain the parameters of the model:
 - $\gamma$ = Recovery Rate
 - $\beta$ = Infection Rate
+
 This is helpful to know since the Reproduction Rate of COVID-19 can then be obtained by the following equation:
 - $R_0 = \frac{\beta}{\gamma}$
 
