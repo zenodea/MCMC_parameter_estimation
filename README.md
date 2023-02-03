@@ -6,7 +6,6 @@ A slightly modified version of the epidemiological SIR model is utilised, the SI
 
 SIRD:
 
-<<<<<<< HEAD
 
 $\dfrac{dS}{dt} = S-\dfrac{\beta I S}{N}$
 
@@ -19,14 +18,6 @@ $\dfrac{dR}{dt} = \gamma I$
 
 $\dfrac{dD}{dt} = \rho I $
 
-=======
-$$
-\dfrac{dS}{dt} = S-\dfrac{\beta I S}{N}\
-\dfrac{dI}{dt} = \dfrac{\beta I S}{N} - \gamma I - \rho I\
-\dfrac{dR}{dt} = \gamma I\
-\dfrac{dD}{dt} = \rho I
-$$
->>>>>>> 0f31270b0262b952d0b8cde1f3174a49737389f4
 
 ### Parameters
 We can then utilise this information to do parameter estimation to obtain the parameters of the model:
