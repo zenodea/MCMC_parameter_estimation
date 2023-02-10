@@ -39,7 +39,7 @@ Priors:
 
 For the likelihood function, we need to chose an equation that allows MCMC to estimate all the necessary parameters, thanks to this paper, we can write $D(t)$ as such:
 
-$ D(t) = I_0(1+k)^{\dfrac{\beta}{\beta-\gamma}}(1+ke^{(\beta-\gamma)(t-t_0)})^{-\dfrac{\beta}{\beta-\gamma}}e^{(\beta-\gamma)(t-t_0)}
+$ D(t) = I_0(1+k)^{\dfrac{\beta}{\beta-\gamma}}(1+ke^{(\beta-\gamma)(t-t_0)})^{-\dfrac{\beta}{\beta-\gamma}}e^{(\beta-\gamma)(t-t_0)} $
 
 Likelihood Function:
 - Truncated Normal
