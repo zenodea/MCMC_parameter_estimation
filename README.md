@@ -59,11 +59,3 @@ $D(t) = I_0(1+k)^{\frac{\beta}{\beta-\gamma}}(1+ke^{(\beta-\gamma)(t-t_0)})^{-\f
 Where $k$ is:
 
 $k = \dfrac{I_0}{S_0}$
-
-### Comparison
-The above analysis is done one a before and after event basis. This means that, if we were to analyse the first lockdown, we would run the MCMC model on data from the start of the government policy up to 14 days later (to account for delayed effect), and run the model again from the 14th day to the 28th day, allowing the government policy to be in full effect. 
-
-After the two analysis, we can obtain the two $R_0$ values, allowing us to quantify the effect of a government policy on the act of stopping COVID-19.
-
-### Forecasting
-Lastly, forecasting, utilising the recently obtained parameters, will be done to show what would've happened if governments had not intervened. To do so, SIRD models will be plotted to obtained the necessary data (cumulative deaths). The predicted data will then be compared with the real life data, to understand the different trends.
